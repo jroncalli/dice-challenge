@@ -20,9 +20,9 @@ dice2.src = `images/dice${roll2}.png`;
 
 //Compare dice rolls and change text
 if (roll1 > roll2) {
-  h1.textContent = "🚩 Player 1 Wins";
+  h1.textContent = "Player 1 Wins";
 } else if (roll1 < roll2) {
-  h1.textContent = "Player 2 Wins 🚩";
+  h1.textContent = "Player 2 Wins";
 } else {
   h1.textContent = "Draw!";
 }
